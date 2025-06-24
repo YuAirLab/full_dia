@@ -1,0 +1,12 @@
+__pycache__/
+.idea/
+
+/build
+/dist
+/sdist
+*.egg-info/
+
+# **/private*/
+
+full_dia/main.py
+full_dia/main_core.py
