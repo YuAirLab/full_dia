@@ -358,7 +358,6 @@ def scoring_rt(df_batch):
 def scoring_center_snr(df_batch, xics):
     '''
     Signal is the apex intensiy, noise is the median of profile.
-    信噪比打分。信号取center的强度，噪声取median，前6个子离子基于sa加权
     1. snrs for 14 ions
     2. mean
     3. mean weighting by sa
